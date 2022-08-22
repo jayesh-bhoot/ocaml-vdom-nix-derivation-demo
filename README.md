@@ -1,0 +1,1 @@
+This demo exists to prove (to myself) that ocaml-vdom's nix derivation works standalone - i.e., without bringing in js_of_ocaml-compiler and js_of_ocaml derivations in the project's flake - only when `js_of_ocaml-compiler` and `ojs` are set as `propagatedBuildInput` in the ocaml-vdom derivation.
