@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661120702,
+        "narHash": "sha256-o2P8sp6FaCwPT8i67Un3w5DN0+nFnY8e9xk7Tj0hpmE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3ed15c29ce0fd1c3fcfbbeebcf1607057200d83c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "ocamlVdomChan": {
+      "locked": {
+        "lastModified": 1661160181,
+        "narHash": "sha256-csrcYftZo2usiOp+tULoRuwvgnnWknjCHtbWySshI4M=",
+        "owner": "jayesh-bhoot",
+        "repo": "nixpkgs",
+        "rev": "2c19a80ee11832e6d66300448744589cac3ac7a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jayesh-bhoot",
+        "ref": "ocaml-vdom",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "ocamlVdomChan": "ocamlVdomChan"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

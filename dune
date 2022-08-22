@@ -1,0 +1,10 @@
+(executables
+ (names counter)
+ (modes js)
+ (libraries ocaml-vdom))
+
+(alias
+  (name default)
+  (deps 
+    counter.bc.js
+    index.html))
